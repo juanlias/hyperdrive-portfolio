@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português",
+    "shavian": "Shavian"
+  },
+  "space": {
+    "holdToJump": "PULSA O MANTÉN PARA SALTAR AL HIPERESPACIO",
+    "guideMove": "DESPLÁZATE:",
+    "guideHyperspace": "Guía el hiperespacio"
+  },
+  "header": {
+    "greeting": "HOLA, SOY",
+    "name": "OBI-JUAN KENOBI",
+    "role": "CONSTRUCTOR, CREADOR, DISEÑADOR",
+    "subtitle": "Maestro del código y guardián del buen diseño",
+    "status": "ONLINE"
+  },
+  "about": {
+    "title": "SOBRE MÍ",
+    "description": "Constructor de mundos digitales, aprendiz de Jedi del diseño y contrabandista ocasional de píxeles. Amante del minimalismo, pero siempre listo para disparar un easter egg de ciencia ficción en cualquier interfaz."
+  },
+  "timeline": {
+    "title": "TRAYECTORIA",
+    "items": [
+      {
+        "period": "2023 – PRESENTE",
+        "position": "MAESTRO DE LA FUERZA VISUAL",
+        "company": "Rebel Design Order"
+      },
+      {
+        "period": "2020 – 2023",
+        "position": "CABALLERO DEL FRONTEND",
+        "company": "Galactic UI Guild"
+      },
+      {
+        "period": "2018 – 2020",
+        "position": "PADAWAN DE LA EXPERIENCIA DE USUARIO",
+        "company": "Academia de Coruscant"
+      }
+    ]
+  },
+  "projects": {
+    "title": "TRABAJOS DESTACADOS",
+    "items": [
+      {
+        "title": "PROYECTO HOTH",
+        "description": "Dashboard helado para monitoreo en tiempo real",
+        "longDescription": "Sistema de monitoreo avanzado desarrollado para condiciones extremas. Incluye análisis predictivo, alertas en tiempo real y visualización de datos criogénicos. Diseñado para resistir las condiciones más hostiles del universo.",
+        "type": "DASHBOARD",
+        "technologies": ["Vue.js", "D3.js", "WebGL", "Node.js", "PostgreSQL"],
+        "duration": "4 meses",
+        "status": "Operativo",
+        "year": "2024",
+        "liveUrl": "https://proyecto-hoth.demo",
+        "githubUrl": "https://github.com/obi-juan/proyecto-hoth"
+      },
+      {
+        "title": "INICIATIVA TATOOINE",
+        "description": "Plataforma de comercio interestelar",
+        "longDescription": "Marketplace revolucionario que conecta comerciantes de toda la galaxia. Sistema de pagos descentralizado, logística automatizada y protección anti-contrabando. Procesamiento de transacciones en tiempo real.",
+        "type": "E-COMMERCE",
+        "technologies": ["React", "Blockchain", "Solidity", "Express.js", "MongoDB"],
+        "duration": "6 meses",
+        "status": "En expansión",
+        "year": "2023",
+        "liveUrl": "https://tatooine-market.space",
+        "githubUrl": "https://github.com/obi-juan/tatooine-initiative"
+      },
+      {
+        "title": "CONCEPTO BESPIN",
+        "description": "Rediseño de marca flotante en la nube",
+        "longDescription": "Identidad visual completa para plataforma de servicios cloud. Incluye sistema de diseño modular, componentes reutilizables y guías de estilo. Enfoque en la levedad y la elegancia flotante.",
+        "type": "BRANDING",
+        "technologies": ["Figma", "Adobe Suite", "CSS", "Animation", "Sketch"],
+        "duration": "3 meses",
+        "status": "Completado",
+        "year": "2023",
+        "liveUrl": "https://bespin-cloud.design",
+        "githubUrl": "https://github.com/obi-juan/bespin-concept"
+      },
+      {
+        "title": "STARSHIP UX",
+        "description": "Interfaz para simulador de hiperespacio",
+        "longDescription": "Experiencia inmersiva de navegación espacial con controles gestuales, realidad aumentada y feedback háptico. Diseño centrado en la usabilidad bajo condiciones de alta velocidad y estrés.",
+        "type": "UX/UI",
+        "technologies": ["Unity", "C#", "WebXR", "Three.js", "GSAP"],
+        "duration": "5 meses",
+        "status": "Prototipo",
+        "year": "2024",
+        "liveUrl": "https://starship-ux.simulator",
+        "githubUrl": "https://github.com/obi-juan/starship-ux"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "TESTIMONIOS",
+    "items": [
+      {
+        "quote": "Diseñar con él es como tener un droide astromecánico en el equipo: preciso, confiable y con sorpresas ingeniosas.",
+        "author": "Leia Organa",
+        "position": "General de la Rebelión"
+      },
+      {
+        "quote": "Un verdadero Jedi del diseño. Sus interfaces hacen que incluso un Wookiee se sienta cómodo navegando.",
+        "author": "Han Solo",
+        "position": "Capitán del Millennium Falcon"
+      },
+      {
+        "quote": "Si la Estrella de la Muerte hubiera tenido su UI, nunca habría explotado.",
+        "author": "Darth Vader",
+        "position": "Lord Sith"
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "description": "¿Tienes una misión? Conecta la transmisión intergaláctica y envía tus coordenadas.",
+    "button": "INICIAR TRANSMISIÓN",
+    "chat": "CHAT"
+  },
+  "footer": {
+    "copyright": "Juan Lias © {year}. Transmisión encriptada por la Alianza Rebelde."
+  },
+  "theme": {
+    "title": "LIGHTSABER COLORS",
+    "changing": "CAMBIANDO CRISTAL...",
+    "themes": {
+      "blue": {
+        "name": "Jedi Guardian",
+        "description": "Blue Lightsaber",
+        "crystal": "Cristal Ilum"
+      },
+      "green": {
+        "name": "Jedi Consular",
+        "description": "Green Lightsaber",
+        "crystal": "Cristal Adegan"
+      },
+      "purple": {
+        "name": "Mace Windu",
+        "description": "Purple Lightsaber",
+        "crystal": "Cristal Hurrikaine"
+      },
+      "red": {
+        "name": "Sith",
+        "description": "Red Lightsaber",
+        "crystal": "Cristal Sintético"
+      },
+      "yellow": {
+        "name": "Temple Guard",
+        "description": "Yellow Lightsaber",
+        "crystal": "Cristal Dorado"
+      }
+    }
+  },
+  "buttons": {
+    "returnToSpace": "Volver al Espacio"
+  }
+}

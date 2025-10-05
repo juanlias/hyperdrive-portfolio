@@ -1,0 +1,131 @@
+{
+  "nav": {
+    "selectLanguage": "Selecionar idioma"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português",
+    "shavian": "Shavian"
+  },
+  "space": {
+    "holdToJump": "CLIQUE OU SEGURE PARA PULAR AO HIPERESPAÇO",
+    "guideMove": "MOVA:",
+    "guideHyperspace": "Guie o hiperespaço"
+  },
+  "header": {
+    "greeting": "OLÁ, EU SOU",
+    "name": "OBI-JUAN KENOBI",
+    "role": "CONSTRUTOR, CRIADOR, DESIGNER",
+    "subtitle": "Mestre do código e guardião do bom design",
+    "status": "ONLINE"
+  },
+  "about": {
+    "title": "SOBRE MIM",
+    "description": "Construtor de mundos digitais, aprendiz Jedi de design e contrabandista ocasional de pixels. Amante do minimalismo, mas sempre pronto para disparar um easter egg de ficção científica em qualquer interface."
+  },
+  "timeline": {
+    "title": "TRAJETÓRIA",
+    "items": [
+      {
+        "period": "2023 – PRESENTE",
+        "position": "MESTRE DA FORÇA VISUAL",
+        "company": "Rebel Design Order"
+      },
+      {
+        "period": "2020 – 2023",
+        "position": "CAVALEIRO DO FRONTEND",
+        "company": "Galactic UI Guild"
+      },
+      {
+        "period": "2018 – 2020",
+        "position": "PADAWAN DA EXPERIÊNCIA DO USUÁRIO",
+        "company": "Academia de Coruscant"
+      }
+    ]
+  },
+  "projects": {
+    "title": "TRABALHOS DESTACADOS",
+    "items": [
+      {
+        "title": "PROJETO HOTH",
+        "description": "Dashboard congelado para monitoramento em tempo real"
+      },
+      {
+        "title": "INICIATIVA TATOOINE",
+        "description": "Plataforma de comércio interestelar"
+      },
+      {
+        "title": "CONCEITO BESPIN",
+        "description": "Redesign de marca flutuante na nuvem"
+      },
+      {
+        "title": "STARSHIP UX",
+        "description": "Interface para simulador de hiperespaço"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "DEPOIMENTOS",
+    "items": [
+      {
+        "quote": "Trabalhar com ele é como ter um droide astromecânico na equipe: preciso, confiável e com surpresas engenhosas.",
+        "author": "Leia Organa",
+        "position": "General da Rebelião"
+      },
+      {
+        "quote": "Um verdadeiro Jedi do design. Suas interfaces fazem até um Wookiee se sentir confortável navegando.",
+        "author": "Han Solo",
+        "position": "Capitão do Millennium Falcon"
+      },
+      {
+        "quote": "Se a Estrela da Morte tivesse sua UI, nunca teria explodido.",
+        "author": "Darth Vader",
+        "position": "Lorde Sith"
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONTATO",
+    "description": "Tem uma missão? Conecte a transmissão intergaláctica e envie suas coordenadas.",
+    "button": "INICIAR TRANSMISSÃO",
+    "chat": "CHAT"
+  },
+  "footer": {
+    "copyright": "Juan Lias © {year}. Transmissão criptografada pela Aliança Rebelde."
+  },
+  "theme": {
+    "title": "CORES DE SABRE DE LUZ",
+    "changing": "MUDANDO CRISTAL...",
+    "themes": {
+      "blue": {
+        "name": "Guardião Jedi",
+        "description": "Sabre de Luz Azul",
+        "crystal": "Cristal Ilum"
+      },
+      "green": {
+        "name": "Cônsul Jedi",
+        "description": "Sabre de Luz Verde",
+        "crystal": "Cristal Adegan"
+      },
+      "purple": {
+        "name": "Mace Windu",
+        "description": "Sabre de Luz Roxo",
+        "crystal": "Cristal Hurrikaine"
+      },
+      "red": {
+        "name": "Sith",
+        "description": "Sabre de Luz Vermelho",
+        "crystal": "Cristal Sintético"
+      },
+      "yellow": {
+        "name": "Guarda do Templo",
+        "description": "Sabre de Luz Amarelo",
+        "crystal": "Cristal Dourado"
+      }
+    }
+  },
+  "buttons": {
+    "returnToSpace": "Voltar ao Espaço"
+  }
+}

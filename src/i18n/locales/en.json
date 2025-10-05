@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "selectLanguage": "Select language"
+  },
+  "languages": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português",
+    "shavian": "Shavian"
+  },
+  "space": {
+    "holdToJump": "CLICK OR HOLD TO JUMP TO HYPERSPACE",
+    "guideMove": "MOVE:",
+    "guideHyperspace": "Guide the hyperspace"
+  },
+  "header": {
+    "greeting": "HELLO, I'M",
+    "name": "OBI-JUAN KENOBI",
+    "role": "BUILDER, CREATOR, DESIGNER, JEDI",
+    "subtitle": "Code master and guardian of good design",
+    "status": "ONLINE"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "description": "Digital world builder, Jedi design apprentice, and occasional pixel smuggler. Minimalism lover, but always ready to shoot a sci-fi easter egg into any interface."
+  },
+  "timeline": {
+    "title": "CAREER PATH",
+    "items": [
+      {
+        "period": "2023 – PRESENT",
+        "position": "VISUAL FORCE MASTER",
+        "company": "Rebel Design Order"
+      },
+      {
+        "period": "2020 – 2023",
+        "position": "FRONTEND KNIGHT",
+        "company": "Galactic UI Guild"
+      },
+      {
+        "period": "2018 – 2020",
+        "position": "USER EXPERIENCE PADAWAN",
+        "company": "Coruscant Academy"
+      }
+    ]
+  },
+  "projects": {
+    "title": "FEATURED WORK",
+    "items": [
+      {
+        "title": "PROJECT HOTH",
+        "description": "Frozen dashboard for real-time monitoring",
+        "longDescription": "Advanced monitoring system developed for extreme conditions. Includes predictive analytics, real-time alerts, and cryogenic data visualization. Designed to withstand the most hostile conditions in the universe.",
+        "type": "DASHBOARD",
+        "technologies": ["Vue.js", "D3.js", "WebGL", "Node.js", "PostgreSQL"],
+        "duration": "4 months",
+        "status": "Operational",
+        "year": "2024",
+        "liveUrl": "https://project-hoth.demo",
+        "githubUrl": "https://github.com/obi-juan/project-hoth"
+      },
+      {
+        "title": "TATOOINE INITIATIVE",
+        "description": "Interstellar commerce platform",
+        "longDescription": "Revolutionary marketplace connecting traders across the galaxy. Decentralized payment system, automated logistics, and anti-smuggling protection. Real-time transaction processing.",
+        "type": "E-COMMERCE",
+        "technologies": ["React", "Blockchain", "Solidity", "Express.js", "MongoDB"],
+        "duration": "6 months",
+        "status": "Expanding",
+        "year": "2023",
+        "liveUrl": "https://tatooine-market.space",
+        "githubUrl": "https://github.com/obi-juan/tatooine-initiative"
+      },
+      {
+        "title": "BESPIN CONCEPT",
+        "description": "Cloud-floating brand redesign",
+        "longDescription": "Complete visual identity for cloud services platform. Includes modular design system, reusable components, and style guides. Focus on lightness and floating elegance.",
+        "type": "BRANDING",
+        "technologies": ["Figma", "Adobe Suite", "CSS", "Animation", "Sketch"],
+        "duration": "3 months",
+        "status": "Completed",
+        "year": "2023",
+        "liveUrl": "https://bespin-cloud.design",
+        "githubUrl": "https://github.com/obi-juan/bespin-concept"
+      },
+      {
+        "title": "STARSHIP UX",
+        "description": "Interface for hyperspace simulator",
+        "longDescription": "Immersive space navigation experience with gestural controls, augmented reality, and haptic feedback. Design focused on usability under high-speed and stress conditions.",
+        "type": "UX/UI",
+        "technologies": ["Unity", "C#", "WebXR", "Three.js", "GSAP"],
+        "duration": "5 months",
+        "status": "Prototype",
+        "year": "2024",
+        "liveUrl": "https://starship-ux.simulator",
+        "githubUrl": "https://github.com/obi-juan/starship-ux"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "TESTIMONIALS",
+    "items": [
+      {
+        "quote": "Working with him is like having an astromech droid on the team: precise, reliable, and with ingenious surprises.",
+        "author": "Leia Organa",
+        "position": "Rebellion General"
+      },
+      {
+        "quote": "A true design Jedi. His interfaces make even a Wookiee feel comfortable browsing.",
+        "author": "Han Solo",
+        "position": "Millennium Falcon Captain"
+      },
+      {
+        "quote": "If the Death Star had his UI, it would never have exploded.",
+        "author": "Darth Vader",
+        "position": "Sith Lord"
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONTACT",
+    "description": "Got a mission? Connect the intergalactic transmission and send your coordinates.",
+    "button": "START TRANSMISSION",
+    "chat": "CHAT"
+  },
+  "footer": {
+    "copyright": "Juan Lias © {year}. Transmission encrypted by the Rebel Alliance."
+  },
+  "theme": {
+    "title": "LIGHTSABER COLORS",
+    "changing": "CHANGING CRYSTAL...",
+    "themes": {
+      "blue": {
+        "name": "Jedi Guardian",
+        "description": "Blue Lightsaber",
+        "crystal": "Ilum Crystal"
+      },
+      "green": {
+        "name": "Jedi Consular",
+        "description": "Green Lightsaber",
+        "crystal": "Adegan Crystal"
+      },
+      "purple": {
+        "name": "Mace Windu",
+        "description": "Purple Lightsaber",
+        "crystal": "Hurrikaine Crystal"
+      },
+      "red": {
+        "name": "Sith",
+        "description": "Red Lightsaber",
+        "crystal": "Synthetic Crystal"
+      },
+      "yellow": {
+        "name": "Temple Guard",
+        "description": "Yellow Lightsaber",
+        "crystal": "Golden Crystal"
+      }
+    }
+  },
+  "buttons": {
+    "returnToSpace": "Return to Space"
+  }
+}
