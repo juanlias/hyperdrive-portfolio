@@ -38,7 +38,7 @@
         "company": "Galactic UI Guild"
       },
       {
-        "period": "2018 – 2020",
+        "period": "2017 – 2020",
         "position": "PADAWAN DA EXPERIÊNCIA DO USUÁRIO",
         "company": "Academia de Coruscant"
       }
@@ -63,7 +63,18 @@
         "title": "STARSHIP UX",
         "description": "Interface para simulador de hiperespaço"
       }
-    ]
+    ],
+    "modal": {
+      "description": "DESCRIÇÃO",
+      "duration": "Duração",
+      "status": "Status",
+      "year": "Ano",
+      "technologies": "TECNOLOGIAS",
+      "statistics": "ESTATÍSTICAS",
+      "actions": "AÇÕES",
+      "viewProject": "VER PROJETO",
+      "viewCode": "VER CÓDIGO"
+    }
   },
   "testimonials": {
     "title": "DEPOIMENTOS",
@@ -127,5 +138,22 @@
   },
   "buttons": {
     "returnToSpace": "Voltar ao Espaço"
+  },
+  "github": {
+    "title": "Hyperdrive Portfolio",
+    "ariaLabel": "Ver código fonte no GitHub e informações do portfólio",
+    "closeLabel": "Fechar painel",
+    "stats": {
+      "stars": "Estrelas",
+      "forks": "Forks",
+      "watchers": "Seguidores"
+    },
+    "about": {
+      "title": "Sobre este projeto",
+      "description": "Um portfólio interativo inspirado em Star Wars com efeitos holográficos, animações fluidas e uma experiência do usuário imersiva."
+    },
+    "actions": {
+      "viewCode": "Ver Código"
+    }
   }
 }

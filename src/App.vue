@@ -48,7 +48,7 @@
         </div>
       </div>
     </transition>
-
+    <GithubCorner v-if="isPortfolioVisible"/>
     <Portfolio 
       :isVisible="isPortfolioVisible" 
       @return-to-space="returnToSpace"

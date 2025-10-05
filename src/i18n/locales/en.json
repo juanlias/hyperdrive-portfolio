@@ -38,7 +38,7 @@
         "company": "Galactic UI Guild"
       },
       {
-        "period": "2018 – 2020",
+        "period": "2017 – 2020",
         "position": "USER EXPERIENCE PADAWAN",
         "company": "Coruscant Academy"
       }
@@ -56,8 +56,8 @@
         "duration": "4 months",
         "status": "Operational",
         "year": "2024",
-        "liveUrl": "https://project-hoth.demo",
-        "githubUrl": "https://github.com/obi-juan/project-hoth"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "TATOOINE INITIATIVE",
@@ -68,8 +68,8 @@
         "duration": "6 months",
         "status": "Expanding",
         "year": "2023",
-        "liveUrl": "https://tatooine-market.space",
-        "githubUrl": "https://github.com/obi-juan/tatooine-initiative"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "BESPIN CONCEPT",
@@ -80,8 +80,8 @@
         "duration": "3 months",
         "status": "Completed",
         "year": "2023",
-        "liveUrl": "https://bespin-cloud.design",
-        "githubUrl": "https://github.com/obi-juan/bespin-concept"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "STARSHIP UX",
@@ -92,10 +92,21 @@
         "duration": "5 months",
         "status": "Prototype",
         "year": "2024",
-        "liveUrl": "https://starship-ux.simulator",
-        "githubUrl": "https://github.com/obi-juan/starship-ux"
+        "liveUrl": "",
+        "githubUrl": ""
       }
-    ]
+    ],
+    "modal": {
+      "description": "DESCRIPTION",
+      "duration": "Duration",
+      "status": "Status",
+      "year": "Year",
+      "technologies": "TECHNOLOGIES",
+      "statistics": "STATISTICS",
+      "actions": "ACTIONS",
+      "viewProject": "VIEW PROJECT",
+      "viewCode": "VIEW CODE"
+    }
   },
   "testimonials": {
     "title": "TESTIMONIALS",
@@ -159,5 +170,22 @@
   },
   "buttons": {
     "returnToSpace": "Return to Space"
+  },
+  "github": {
+    "title": "Hyperdrive Portfolio",
+    "ariaLabel": "View source on GitHub and portfolio info",
+    "closeLabel": "Close panel",
+    "stats": {
+      "stars": "Stars",
+      "forks": "Forks",
+      "watchers": "Watchers"
+    },
+    "about": {
+      "title": "About this project",
+      "description": "An interactive portfolio inspired by Star Wars with holographic effects, smooth animations and an immersive user experience."
+    },
+    "actions": {
+      "viewCode": "View Code"
+    }
   }
 }

@@ -1,6 +1,6 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-import StarWarsButton from '../ui/StarWarsButton.vue'
+import HyperdriveButton from '../ui/HyperdriveButton.vue'
 
 const { t } = useI18n()
 
@@ -20,8 +20,8 @@ const handleContactClick = () => {
     </div>
     
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <StarWarsButton
-        :href="'mailto:hola@ejemplo.com'"
+      <HyperdriveButton
+        :href="'mailto:contact@juanlias.com'"
         class="action-btn"
         @click="handleContactClick"
       >
@@ -36,10 +36,10 @@ const handleContactClick = () => {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
         </template>
-      </StarWarsButton>
+      </HyperdriveButton>
       
       <!-- Botón secundario de ejemplo -->
-      <StarWarsButton
+      <HyperdriveButton
         class="action-btn"
         @click="() => console.log('Secondary action')"
       >
@@ -49,7 +49,7 @@ const handleContactClick = () => {
           </svg>
         </template>
         {{ t('contact.chat', 'Chat') }}
-      </StarWarsButton>
+      </HyperdriveButton>
     </div>
   </section>
 </template>

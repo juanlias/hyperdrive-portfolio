@@ -22,21 +22,6 @@
             <div v-if="exposedCurrentView === VIEWS.MAIN" key="main" class="flex items-center justify-between gap-4">
               <!-- Left Section: Status Indicators -->
               <div class="flex items-center gap-3">
-                <!-- Power Indicator -->
-                <div class="status-group">
-                  <button 
-                    @click="togglePower"
-                    class="power-button relative"
-                    :class="{ 'active': exposedIsPowerOn }"
-                  >
-                    <div class="hex-indicator">
-                      <div class="hex-outer"></div>
-                      <div class="hex-inner" :class="{ 'pulse': exposedIsPowerOn }"></div>
-                    </div>
-                  </button>
-                  <span class="status-label">PWR</span>
-                </div>
-
                 <!-- System Status -->
                 <div class="status-group hidden sm:flex">
                   <div class="status-lights">
@@ -198,7 +183,6 @@
 import { ref, onMounted, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useTheme } from '../composables/useTheme'
-import { useCommandPanelEffects } from '../composables/useCommandPanelEffects'
 import { useThemeEffects } from '../composables/useThemeEffects'
 
 // Component props and emits
@@ -218,12 +202,10 @@ const emit = defineEmits(['return-to-space'])
 // Composables
 const { t, locale } = useI18n()
 const { currentTheme, themes, setTheme } = useTheme()
-const { epicThemeTransition, holographicSweep } = useCommandPanelEffects()
 const { hyperDimensionalTransition, createStarBurst } = useThemeEffects()
 
 // Reactive state
 const state = ref({
-  isPowerOn: true,
   isBooting: true,
   currentView: 'main', // 'main' | 'themes' | 'languages'
   isTranslating: false
@@ -247,15 +229,9 @@ const BOOT_DELAY = 1200
 const LANGUAGE_TRANSITION_DELAY = 100
 
 // Computed properties
-const isPowerOn = computed(() => state.value.isPowerOn)
 const isBooting = computed(() => state.value.isBooting)
 const currentView = computed(() => state.value.currentView)
 const isTranslating = computed(() => state.value.isTranslating)
-
-// Power control
-const togglePower = () => {
-  state.value.isPowerOn = !state.value.isPowerOn
-}
 
 // Navigation methods
 const showThemeSelector = () => {
@@ -377,12 +353,10 @@ onMounted(() => {
 
 // Expose reactive properties for template
 const {
-  isPowerOn: exposedIsPowerOn,
   isBooting: exposedIsBooting,
   currentView: exposedCurrentView,
   isTranslating: exposedIsTranslating
 } = {
-  isPowerOn,
   isBooting,
   currentView,
   isTranslating
@@ -495,37 +469,6 @@ const exposedIsThemeChanging = isThemeChanging
   font-size: 0.625rem;
   letter-spacing: 0.8px;
   color: var(--primary-light);
-}
-
-/* Power Button */
-.power-button {
-  @apply w-10 h-10 flex items-center justify-center cursor-pointer transition-all duration-300;
-}
-
-.hex-indicator {
-  @apply relative w-8 h-8;
-}
-
-.hex-outer {
-  @apply absolute inset-0 border;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
-  background: var(--primary-darker);
-  border-color: var(--primary-dark);
-}
-
-.hex-inner {
-  @apply absolute bg-gray-900 transition-all duration-300;
-  inset: 4px;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
-}
-
-.hex-inner.pulse {
-  background: var(--primary-color);
-  animation: hexPulse 2s ease-in-out infinite;
-}
-
-.power-button:hover .hex-inner {
-  background: var(--primary-dark);
 }
 
 /* Status Lights */
@@ -698,7 +641,7 @@ const exposedIsThemeChanging = isThemeChanging
 
 /* Option Card - Enhanced with hover effects */
 .option-card {
-  @apply flex items-center gap-3 px-3 py-1 border rounded-lg cursor-pointer transition-all duration-300;
+  @apply flex items-center gap-2 px-2 py-1 border rounded-lg cursor-pointer transition-all duration-300;
   background: rgba(20, 20, 20, 0.8);
   border-color: var(--primary-darker);
   position: relative;
@@ -763,7 +706,7 @@ const exposedIsThemeChanging = isThemeChanging
 
 /* Enhanced lightsaber preview with pulsing effect */
 .lightsaber-preview {
-  @apply w-10 h-1 rounded-sm flex-shrink-0;
+  @apply w-7 h-1 rounded-sm flex-shrink-0;
   position: relative;
   transition: all 0.3s ease;
 }

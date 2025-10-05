@@ -63,33 +63,23 @@ class Star {
     const py = (this.y / this.pz) * height / 2 + centerY
     this.pz = this.z
     
-    // Extract RGB values from warpColor and apply alpha
-    let warpStrokeColor = `rgba(255, 255, 255, ${1 - this.z / width})`
-    if (isWarping && warpColor) {
-      // Extract RGB from rgba() or rgb() string
-      const rgbaMatch = warpColor.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/)
-      if (rgbaMatch) {
-        warpStrokeColor = `rgba(${rgbaMatch[1]}, ${rgbaMatch[2]}, ${rgbaMatch[3]}, ${1 - this.z / width})`
-      }
-    }
-    
     if (isWarping) {
-      // Draw warp trail as line when warping
+      // Draw warp trail as line when warping - always keep stars white
       ctx.beginPath()
       ctx.moveTo(px, py)
       ctx.lineTo(sx, sy)
-      ctx.strokeStyle = warpStrokeColor
+      ctx.strokeStyle = `rgba(255, 255, 255, ${1 - this.z / width})`
       ctx.lineWidth = r * 2.5
       ctx.lineCap = 'round' // Make line ends round
       ctx.stroke()
     } else {
-      // Draw as circular stars when not warping
+      // Draw as circular stars when not warping - always white
       ctx.beginPath()
       ctx.arc(sx, sy, Math.max(0.5, r), 0, Math.PI * 2)
       ctx.fillStyle = `rgba(255, 255, 255, ${1 - this.z / width})`
       ctx.fill()
       
-      // Add a subtle glow effect for distant stars
+      // Add a subtle glow effect for distant stars - always white
       if (r > 1) {
         ctx.beginPath()
         ctx.arc(sx, sy, r * 1.5, 0, Math.PI * 2)

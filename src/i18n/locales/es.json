@@ -38,7 +38,7 @@
         "company": "Galactic UI Guild"
       },
       {
-        "period": "2018 – 2020",
+        "period": "2017 – 2020",
         "position": "PADAWAN DE LA EXPERIENCIA DE USUARIO",
         "company": "Academia de Coruscant"
       }
@@ -56,8 +56,8 @@
         "duration": "4 meses",
         "status": "Operativo",
         "year": "2024",
-        "liveUrl": "https://proyecto-hoth.demo",
-        "githubUrl": "https://github.com/obi-juan/proyecto-hoth"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "INICIATIVA TATOOINE",
@@ -68,8 +68,8 @@
         "duration": "6 meses",
         "status": "En expansión",
         "year": "2023",
-        "liveUrl": "https://tatooine-market.space",
-        "githubUrl": "https://github.com/obi-juan/tatooine-initiative"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "CONCEPTO BESPIN",
@@ -80,8 +80,8 @@
         "duration": "3 meses",
         "status": "Completado",
         "year": "2023",
-        "liveUrl": "https://bespin-cloud.design",
-        "githubUrl": "https://github.com/obi-juan/bespin-concept"
+        "liveUrl": "",
+        "githubUrl": ""
       },
       {
         "title": "STARSHIP UX",
@@ -92,10 +92,21 @@
         "duration": "5 meses",
         "status": "Prototipo",
         "year": "2024",
-        "liveUrl": "https://starship-ux.simulator",
-        "githubUrl": "https://github.com/obi-juan/starship-ux"
+        "liveUrl": "",
+        "githubUrl": ""
       }
-    ]
+    ],
+    "modal": {
+      "description": "DESCRIPCIÓN",
+      "duration": "Duración",
+      "status": "Estado", 
+      "year": "Año",
+      "technologies": "TECNOLOGÍAS",
+      "statistics": "ESTADÍSTICAS",
+      "actions": "ACCIONES",
+      "viewProject": "VER PROYECTO",
+      "viewCode": "VER CÓDIGO"
+    }
   },
   "testimonials": {
     "title": "TESTIMONIOS",
@@ -159,5 +170,22 @@
   },
   "buttons": {
     "returnToSpace": "Volver al Espacio"
+  },
+  "github": {
+    "title": "Hyperdrive Portfolio",
+    "ariaLabel": "Ver código fuente en GitHub e información del portafolio",
+    "closeLabel": "Cerrar panel",
+    "stats": {
+      "stars": "Estrellas",
+      "forks": "Forks",
+      "watchers": "Seguidores"
+    },
+    "about": {
+      "title": "Sobre este proyecto",
+      "description": "Un portafolio interactivo inspirado en Star Wars con efectos holográficos, animaciones fluidas y una experiencia de usuario inmersiva."
+    },
+    "actions": {
+      "viewCode": "Ver Código"
+    }
   }
 }

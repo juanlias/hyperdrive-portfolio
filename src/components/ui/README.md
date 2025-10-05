@@ -51,7 +51,7 @@ Un componente modal genérico con efectos holográficos de Star Wars. Completame
 
 - `close`: Se emite cuando el modal debe cerrarse
 
-## StarWarsButton Component
+## HyperdriveButton Component
 
 Un componente de botón reutilizable con estilo de Star Wars que se adapta dinámicamente al tema seleccionado.
 
@@ -71,17 +71,17 @@ Un componente de botón reutilizable con estilo de Star Wars que se adapta diná
 ```vue
 <template>
   <!-- Botón primario -->
-  <StarWarsButton @click="handleClick">
+  <HyperdriveButton @click="handleClick">
     Hacer clic
-  </StarWarsButton>
+  </HyperdriveButton>
 
   <!-- Botón como enlace -->
-  <StarWarsButton href="https://example.com" target="_blank">
+  <HyperdriveButton href="https://example.com" target="_blank">
     Visitar sitio
-  </StarWarsButton>
+  </HyperdriveButton>
 
   <!-- Con iconos -->
-  <StarWarsButton variant="outline" size="lg">
+  <HyperdriveButton variant="outline" size="lg">
     <template #icon-left>
       <svg>...</svg>
     </template>
@@ -89,7 +89,7 @@ Un componente de botón reutilizable con estilo de Star Wars que se adapta diná
     <template #icon-right>
       <svg>...</svg>
     </template>
-  </StarWarsButton>
+  </HyperdriveButton>
 </template>
 ```
 
@@ -158,7 +158,7 @@ El componente utiliza las variables CSS del tema activo:
 ```vue
 <template>
   <!-- Botón de contacto -->
-  <StarWarsButton
+  <HyperdriveButton
     href="mailto:contact@example.com"
     variant="primary"
     size="lg"
@@ -167,10 +167,10 @@ El componente utiliza las variables CSS del tema activo:
       <MailIcon />
     </template>
     Enviar Email
-  </StarWarsButton>
+  </HyperdriveButton>
 
   <!-- Botón de descarga -->
-  <StarWarsButton
+  <HyperdriveButton
     variant="outline"
     size="md"
     :loading="isDownloading"
@@ -180,15 +180,15 @@ El componente utiliza las variables CSS del tema activo:
       <DownloadIcon />
     </template>
     {{ isDownloading ? 'Descargando...' : 'Descargar' }}
-  </StarWarsButton>
+  </HyperdriveButton>
 
   <!-- Botón de acción secundaria -->
-  <StarWarsButton
+  <HyperdriveButton
     variant="ghost"
     size="sm"
     @click="showMoreInfo"
   >
     Más información
-  </StarWarsButton>
+  </HyperdriveButton>
 </template>
 ```

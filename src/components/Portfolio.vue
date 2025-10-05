@@ -23,6 +23,7 @@
 </template>
 <script setup>
 import { gsap } from 'gsap'
+import GithubCorner from './GithubCorner.vue'
 import PortfolioHeader from './portfolio/PortfolioHeader.vue'
 import AboutSection from './portfolio/AboutSection.vue'
 import TimelineSection from './portfolio/TimelineSection.vue'

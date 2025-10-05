@@ -22,7 +22,7 @@
       <div class="details-grid grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Description -->
         <div class="detail-section">
-          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">DESCRIPCIÓN</h3>
+          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">{{ t('projects.modal.description') }}</h3>
           <p class="hologram-text text-cyan-100/80 leading-relaxed">
             {{ project?.description }}
           </p>
@@ -33,7 +33,7 @@
         
         <!-- Tech Stack -->
         <div class="detail-section">
-          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">TECNOLOGÍAS</h3>
+          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">{{ t('projects.modal.technologies') }}</h3>
           <div class="tech-tags flex flex-wrap gap-2">
             <span 
               v-for="tech in project?.technologies || ['Vue.js', 'Node.js', 'MongoDB']" 
@@ -47,18 +47,18 @@
         
         <!-- Project Stats -->
         <div class="detail-section">
-          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">ESTADÍSTICAS</h3>
+          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">{{ t('projects.modal.statistics') }}</h3>
           <div class="stats-grid space-y-2">
             <div class="stat-item flex justify-between">
-              <span class="text-cyan-100/70">Duración:</span>
+              <span class="text-cyan-100/70">{{ t('projects.modal.duration') }}:</span>
               <span class="text-cyan-300">{{ project?.duration || '3 meses' }}</span>
             </div>
             <div class="stat-item flex justify-between">
-              <span class="text-cyan-100/70">Estado:</span>
+              <span class="text-cyan-100/70">{{ t('projects.modal.status') }}:</span>
               <span class="text-green-400">{{ project?.status || 'Completado' }}</span>
             </div>
             <div class="stat-item flex justify-between">
-              <span class="text-cyan-100/70">Año:</span>
+              <span class="text-cyan-100/70">{{ t('projects.modal.year') }}:</span>
               <span class="text-cyan-300">{{ project?.year || '2024' }}</span>
             </div>
           </div>
@@ -66,21 +66,17 @@
         
         <!-- Actions -->
         <div class="detail-section action-section">
-          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">ACCIONES</h3>
+          <h3 class="section-title text-cyan-300 font-semibold mb-2 text-lg">{{ t('projects.modal.actions') }}</h3>
           <div class="action-buttons flex gap-x-2">
-            <StarWarsButton 
-              v-if="project?.liveUrl"
-              @click="openLink(project.liveUrl)"
+            <HyperdriveButton 
             >
-              VER PROYECTO
-            </StarWarsButton>
+              {{ t('projects.modal.viewProject') }}
+            </HyperdriveButton>
             
-            <StarWarsButton 
-              v-if="project?.githubUrl"
-              @click="openLink(project.githubUrl)"
+            <HyperdriveButton 
             >
-              VER CÓDIGO
-            </StarWarsButton>
+              {{ t('projects.modal.viewCode') }}
+            </HyperdriveButton>
           </div>
         </div>
       </div>
@@ -90,8 +86,11 @@
 
 <script setup>
 import { ref, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
 import HologramModal from '../ui/HologramModal.vue'
-import StarWarsButton from '../ui/StarWarsButton.vue'
+import HyperdriveButton from '../ui/HyperdriveButton.vue'
+
+const { t } = useI18n()
 
 const props = defineProps({
   isOpen: {
@@ -105,11 +104,6 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['close'])
-
-const openLink = (url) => {
-  console.log('Opening URL:', url)
-  window.open(url, '_blank')
-}
 
 // Debug: Watch project changes
 watch(() => props.project, (newProject) => {

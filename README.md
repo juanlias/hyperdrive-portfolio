@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/Hyperdrive - logo.png" alt="Hyperdrive Portfolio Logo by Juan Lias" width="300">
+  <img src="public/hyperdrive-logo.png" alt="Hyperdrive Portfolio Logo by Juan Lias" width="300">
   
   ![Version](https://img.shields.io/badge/version-0.9.0--beta-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 </div>
