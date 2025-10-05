@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/hyperdrive-logo.png" alt="Hyperdrive Portfolio Logo by Juan Lias" width="300">
   
-  ![Version](https://img.shields.io/badge/version-0.9.0--beta-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+  ![Version](https://img.shields.io/badge/version-0.9.1--beta-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 </div>
 
 # Hyperdrive Portfolio
@@ -28,6 +28,7 @@ A stunning portfolio website with a hyperspace travel animation built with Vue 3
 - **Vue 3 Composition API**: Built with modern Vue 3 script setup syntax
 - **Hologram Modals**: Interactive project detail modals with sci-fi effects
 - **Interactive Canvas**: Dynamic star field with mouse-responsive particle effects
+- **HyperdriveButton Component**: Custom futuristic button component with hover effects
 
 ## Tech Stack
 
@@ -108,6 +109,17 @@ This comprehensive effects system creates a cohesive Star Wars-inspired experien
 - 🔴 **Synthetic** (Red) - The dark side's crimson kyber
 - 🟡 **Golgen** (Yellow) - The golden kyber of the Jedi Temple Guards
 
+## Architecture
+
+This portfolio features a clean, modern architecture:
+
+- **Component-based Structure**: Organized Vue 3 components with clear separation of concerns
+- **Composables Pattern**: Reusable business logic extracted into composables
+- **Theme System**: Dynamic theming with CSS custom properties
+- **Internationalization**: Complete i18n support with Vue I18n
+- **Performance Optimized**: Lightweight build without PWA overhead for faster loading
+- **Modern Build Tools**: Vite for fast development and optimized production builds
+
 ## Customization
 
 ### Update Personal Information
@@ -117,10 +129,19 @@ Edit the portfolio components in `src/components/portfolio/`:
 - `PortfolioHeader.vue` - Name, title, and avatar
 - `AboutSection.vue` - About me description
 - `TimelineSection.vue` - Work experience timeline
-- `ProjectsSection.vue` - Featured projects
+- `ProjectsSection.vue` - Featured projects with enhanced layout
 - `TestimonialsSection.vue` - Client testimonials
-- `ContactSection.vue` - Contact information
+- `ContactSection.vue` - Contact information with improved styling
 - `PortfolioFooter.vue` - Footer with copyright information
+- `ProjectDetailsModal.vue` - Enhanced project detail modals
+
+### UI Components
+
+The project includes reusable UI components in `src/components/ui/`:
+
+- `HyperdriveButton.vue` - Custom futuristic button component
+- `HologramModal.vue` - Holographic modal component
+- `HologramTooltip.vue` - Interactive tooltip component
 
 ### Advanced Effects Customization
 
@@ -155,7 +176,7 @@ messages: {
 }
 ```
 
-3. Add flag and name in `src/components/LanguageSelector.vue`:
+3. Add flag and name in `src/components/CommandPanel.vue` (language selector section):
 ```javascript
 const languages = [
   // ... existing

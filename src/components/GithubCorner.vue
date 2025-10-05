@@ -272,7 +272,7 @@ onMounted(() => {
 </script>
 
 
-<style lang="postcss" scoped>
+<style scoped>
 .github-corner-container {
   @apply fixed top-0 right-0 z-[2000];
 }
