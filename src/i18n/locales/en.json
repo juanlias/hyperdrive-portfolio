@@ -8,6 +8,11 @@
     "pt": "Português",
     "shavian": "Shavian"
   },
+  "notFound": {
+    "title": "Transmission Interrupted",
+    "message": "The coordinates you entered do not exist in our star charts. The signal is weak.",
+    "button": "Return to Space"
+  },
   "space": {
     "holdToJump": "CLICK OR HOLD TO JUMP TO HYPERSPACE",
     "guideMove": "MOVE:",
@@ -64,7 +69,13 @@
         "description": "Interstellar commerce platform",
         "longDescription": "Revolutionary marketplace connecting traders across the galaxy. Decentralized payment system, automated logistics, and anti-smuggling protection. Real-time transaction processing.",
         "type": "E-COMMERCE",
-        "technologies": ["React", "Blockchain", "Solidity", "Express.js", "MongoDB"],
+        "technologies": [
+          "React",
+          "Blockchain",
+          "Solidity",
+          "Express.js",
+          "MongoDB"
+        ],
         "duration": "6 months",
         "status": "Expanding",
         "year": "2023",

@@ -8,6 +8,11 @@
     "pt": "Português",
     "shavian": "Shavian"
   },
+  "notFound": {
+    "title": "Transmisión Interrumpida",
+    "message": "Las coordenadas que ingresaste no existen en nuestros mapas estelares. La señal es débil.",
+    "button": "Volver al Espacio"
+  },
   "space": {
     "holdToJump": "PULSA O MANTÉN PARA SALTAR AL HIPERESPACIO",
     "guideMove": "DESPLÁZATE:",
@@ -16,7 +21,7 @@
   "header": {
     "greeting": "HOLA, SOY",
     "name": "OBI-JUAN KENOBI",
-    "role": "CONSTRUCTOR, CREADOR, DISEÑADOR",
+    "role": "CONSTRUCTOR, CREADOR, DISEÑADOR, JEDI",
     "subtitle": "Maestro del código y guardián del buen diseño",
     "status": "ONLINE"
   },
@@ -64,7 +69,13 @@
         "description": "Plataforma de comercio interestelar",
         "longDescription": "Marketplace revolucionario que conecta comerciantes de toda la galaxia. Sistema de pagos descentralizado, logística automatizada y protección anti-contrabando. Procesamiento de transacciones en tiempo real.",
         "type": "E-COMMERCE",
-        "technologies": ["React", "Blockchain", "Solidity", "Express.js", "MongoDB"],
+        "technologies": [
+          "React",
+          "Blockchain",
+          "Solidity",
+          "Express.js",
+          "MongoDB"
+        ],
         "duration": "6 meses",
         "status": "En expansión",
         "year": "2023",
@@ -99,7 +110,7 @@
     "modal": {
       "description": "DESCRIPCIÓN",
       "duration": "Duración",
-      "status": "Estado", 
+      "status": "Estado",
       "year": "Año",
       "technologies": "TECNOLOGÍAS",
       "statistics": "ESTADÍSTICAS",

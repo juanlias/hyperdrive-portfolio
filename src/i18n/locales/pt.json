@@ -8,6 +8,11 @@
     "pt": "Português",
     "shavian": "Shavian"
   },
+  "notFound": {
+    "title": "Transmissão Interrompida",
+    "message": "As coordenadas que introduziu não existem nos nossos mapas estelares. O sinal é fraco.",
+    "button": "Voltar ao Espaço"
+  },
   "space": {
     "holdToJump": "CLIQUE OU SEGURE PARA PULAR AO HIPERESPAÇO",
     "guideMove": "MOVA:",
@@ -16,7 +21,7 @@
   "header": {
     "greeting": "OLÁ, EU SOU",
     "name": "OBI-JUAN KENOBI",
-    "role": "CONSTRUTOR, CRIADOR, DESIGNER",
+    "role": "CONSTRUTOR, CRIADOR, DESIGNER, JEDI",
     "subtitle": "Mestre do código e guardião do bom design",
     "status": "ONLINE"
   },
